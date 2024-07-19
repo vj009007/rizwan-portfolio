@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+      <link rel="stylesheet" href="assets/css/icon.css" />
+      <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+      <link rel="stylesheet" href="assets/css/animate.min.css" />
+      <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+   </head>
+   <body class="antialiased text-lg leading-[30px] font-primary text-dark dark:bg-semidark dark:text-white scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+      <div id="preloader">
+         <div class="loader_line"></div>
+      </div>
+      <div class="fixed top-0 w-full z-40">
+         <nav class="py-[25px] relative ease-in-out duration-500 mobile-nav max-[768px]:shadow-[0px_0px_10px_rgb(0,0,0,0.1)] max-[768px]:py-[10px] max-[768px]:bg-white max-[768px]:dark:py-[20px] max-[768px]:dark:bg-semidark">
+            <div class="container">
+               <div class="flex items-center justify-between md:block">
+                  <div class="justify-between items-center flex w-full">
+                     <div class="z-50 relative">
+                        <a href="/" class="text-[42px] font-bold">
+                        <!-- <img src="assets/img/logo/logo.png" class="lg:max-w-[150px] max-w-[90px] dark:hidden" alt />
+                        <img src="assets/img/logo/dark.png" class="lg:max-w-[150px] max-w-[90px] hidden dark:block" alt /> -->
+                           Riz<span class="text-custom">wan</span>
+                        </a>
+                     </div>
+                     <div>
+                        <button class="block md:hidden outline-none mobile-menu-button">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                           </svg>
+                        </button>
+                     </div>
+                     <div class="hidden md:block">
+                        <ul class="list-none flex space-x-2 lg:space-x-[30px] items-center">
+                           <li class="home active"><a href="#home" class="font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Home</a></li>
+                           <li class="about"><a href="#about" class="font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">About</a></li>
+                           <li class="portfolio"><a href="#portfolio" class="font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Skills</a></li>
+                           <li class="service"><a href="#service" class="font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Service</a></li>
+                           <li class="contact"><a href="#contact" class="font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Contact</a></li>
+                           <a href="#" class="btn-outline-custom relative" id="downloadBtn">Download CV</a>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="hidden mobile-menu md:hidden">
+                  <div class="pt-5">
+                     <ul>
+                        <li class="home active"><a href="#home" class="text-base font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Home</a></li>
+                        <li class="about"><a href="#about" class="text-base font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">About</a></li>
+                        <li class="portfolio"><a href="#portfolio" class="text-base font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Skills</a></li>
+                        <li class="service"><a href="#service" class="text-base font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Service</a></li>
+                        <li class="contact"><a href="#contact" class="text-base font-medium hover:text-custom font-secondary ease-in-out duration-300 inline-block leading-6 p-2">Contact</a></li>
+                        <a href="#" class="btn-outline-custom relative" id="downloadBtn">Download CV</a>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <section class="bg-[url('../img/slider/1.jpg')] flex items-center dark:bg-[url('../img/slider/2.html')] bg-center bg-cover lg:h-screen py-24 relative my-port_header" id="home">
+         <div class="container">
+            <div class="grid lg:grid-cols-2 items-center gap-[25px]">
+               <div class="order-2 lg:order-1">
+                  <h3 class="text-custom text-[21px] text-center lg:text-left lg:text-[25px] xl:text-[45px] leading-[1.3] font-medium font-secondary">Hello, I'm</h3>
+                  <h1 class="text-[42px] lg:text-[60px] xl:text-[72px] text-center lg:text-left mb-[11px] lg:mb-[18px] leading-[1.3] font-medium font-secondary">Mohd Rizwan Ahmad</h1>
+                  <p class="lg:mb-9 mb-[15px] text-lg lg:text-[19px] xl:text-[28px] text-center lg:text-left font-medium">
+                     A <span class="text-[#1cbe59]">UI Developer </span> with <span class="text-[#8067f0] dark:text-[#f0c45c]"> 4 years of experience</span>
+                  </p>
+                  <p class="lg:mb-[42px] text-muted dark:text-white mb-[30px] text-base text-center lg:text-left xl:text-[23px] leading-[1.5] max-w-[640px] mx-auto lg:ml-0">
+                     Proficient in HTML, CSS, JavaScript, React.js, and more, I specialize in creating responsive, user-friendly websites.
+                  </p>
+                  <div class="flex items-center justify-center lg:justify-start gap-[25px]">
+                     <a href="#about" class="btn-custom relative">About Me</a>
+                     <ul class="flex items-center gap-2">
+                        <li>
+                           <a href="https://www.facebook.com/profile.php?id=100009025697864"><i class="icon-facebook-1"></i></a>
+                        </li>
+                        <li>
+                           <a href="https://x.com/MohdR52422"><i class="icon-twitter-1"></i></a>
+                        </li>
+                        <li>
+                           <a href="https://www.linkedin.com/in/the-rizwan-shaikh/"><i class="icon-linkedin-1"></i></a>
+                        </li>
+                        <!-- <li>
+                           <a href="#"><i class="icon-behance"></i></a>
+                        </li> -->
+                     </ul>
+                  </div>
+               </div>
+               <div class="order-1 lg:order-2">
+                  <div class="relative">
+                     <img src="assets/img/slider/hero2.png" class="mx-auto max-w-[250px] lg:max-w-[400px] xl:max-w-[650px]" alt />
+                     <span class="left-24 shadow-[24px_0px_72px_rgb(54,32,152,0.3)] top-5 hidden lg:flex items-center rounded-lg bg-[#fff] w-[75px] h-[75px] absolute anim_moveBottom">
+                     <img class="w-10 h-10 mx-auto" src="assets/img/svg/skills/css.png" alt />
+                     </span>
+                     <span class="right-[110px] shadow-[24px_0px_72px_rgb(54,32,152,0.3)] top-20 hidden lg:flex items-center rounded-lg bg-[#001631] w-[75px] h-[75px] absolute anim_moveBottom">
+                     <img class="w-10 h-10 mx-auto" src="assets/img/svg/skills/react.svg" alt />
+                     </span>
+                     <span class="left-[100px] shadow-[24px_0px_72px_rgb(54,32,152,0.3)] bottom-20 hidden lg:flex items-center rounded-lg bg-white w-[75px] h-[75px] absolute anim_moveBottom">
+                     <img class="w-10 mx-auto h-10" src="assets/img/svg/skills/html.png" alt />
+                     </span>
+                     <span class="right-[10px] shadow-[24px_0px_72px_rgb(54,32,152,0.3)] bottom-20 hidden lg:flex items-center rounded-lg bg-white w-[75px] h-[75px] absolute anim_moveBottom">
+                     <img class="w-10 mx-auto h-10" src="assets/img/svg/skills/javascript.png" alt />
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="my-port_down text-center max-[1024px]:!bottom-6">
+            <a class="anchor inline-block" href="#process">
+               <svg width="26px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 1.5;">
+                  <path id="wheel" d="M123.359,79.775l0,72.843" fill="none" class="stroke-[20px] stroke-dark dark:stroke-white" />
+                  <path id="mouse" fill="none" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" class="stroke-[20px] stroke-dark dark:stroke-white" />
+               </svg>
+            </a>
+         </div>
+      </section>
+      <section class="md:pt-[112px] pt-16 relative" id="about">
+         <div class="container">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-[90px] items-center">
+               <div class="text-center md:text-left">
+                  <div class="mb-[25px] lg:max-w-[480px]">
+                     <p class="text-custom text-xl md:text-2xl font-medium font-secondary">About myself</p>
+                     <h3 class="md:text-[48px] text-[35px] leading-[1.25] mt-1.5 wow fadeInUp" data-wow-duration="1s">I create anything you want with pixel-perfect web solutions.</h3>
+                  </div>
+                  <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px] mb-[47px] wow fadeInUp" data-wow-duration="1s">
+                     Welcome to my portfolio! I'm Mohd Rizwan, a UI Developer with 4+ years of experience crafting visually stunning and highly functional web interfaces. Proficient in HTML, CSS, JavaScript, React.js, and more, I specialize in creating responsive, user-friendly websites. Check out my work on projects like SnowDome, Centrical, BTC Rent A Car, and Shorebirds Hotels. Let's build something amazing together!
+                  </p>
+                  <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px] items-center">
+                     <div class="flex items-center gap-4 wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="text-2xl">Birthday:</h3>
+                        <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px]">
+                           01 January 2000
+                        </p>
+                     </div>
+                     <div class="flex items-center gap-4 wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="text-2xl">Linkedin:</h3>
+                        <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px]">
+                           <a href="https://www.linkedin.com/in/the-rizwan-shaikh/">the-rizwan-shaikh/</a>
+                        </p>
+                     </div>
+                     <div class="flex items-center gap-4 wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="text-2xl">Phone:</h3>
+                        <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px]">
+                           <a href="tel:+918057872774">+91 8057872774</a>
+                        </p>
+                     </div>
+                     <div class="flex items-center gap-4 wow fadeInUp" data-wow-duration="2s">
+                        <h3 class="text-2xl">Lives In:</h3>
+                        <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px]">
+                           Chhalera Sector 44 Noida
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="relative space-y-4 md:space-y-0">
+                  <div>
+                     <img src="assets/img/about/about.png" class="mx-auto dark:hidden" alt />
+                     <img src="assets/img/about/about.png" class="mx-auto hidden dark:block" alt />
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="left-10 top-5 absolute hidden lg:block wow fadeInLeft" data-wow-duration="1s"><img src="assets/img/brushes/about/1.png" alt /></div>
+         <div class="-bottom-[50px] -z-[1] right-0 absolute hidden lg:block wow fadeInRight" data-wow-duration="1s"><img src="assets/img/brushes/about/2.png" alt /></div>
+      </section>
+      <section class="pt-[135px] pb-[70px]" id="process">
+         <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[50px]">
+               <div class="text-center wow fadeInUp" data-wow-duration="1s">
+                  <div>
+                     <span class="relative inline-block dark:hidden">
+                     <img src="assets/img/brushes/process/1.png" class="md:max-w-[125px] max-w-[90px] mx-auto" alt />
+                     <img src="assets/img/svg/process/target.svg" class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] md:w-[60px] h-[45px] md:h-[60px] mx-auto" alt />
+                     </span>
+                     <span class="relative hidden dark:block">
+                     <img src="assets/img/brushes/process/dark/1.png" class="md:max-w-[125px] max-w-[90px] mx-auto" alt />
+                     <img src="assets/img/svg/process/target-2.svg" class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] md:w-[60px] h-[45px] md:h-[60px] mx-auto" alt />
+                     </span>
+                  </div>
+                  <div class="mt-[30px]">
+                     <h3 class="text-2xl">Pixel Perfect</h3>
+                     <p class="mx-auto text-muted dark:text-darkmuted mt-5 leading-[30px]">Delivering pixel-perfect designs with meticulous attention to detail, ensuring every element aligns perfectly to create visually stunning and highly functional web experiences.</p>
+                  </div>
+               </div>
+               <div class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div>
+                     <span class="relative inline-block dark:hidden">
+                     <img src="assets/img/brushes/process/2.png" class="md:max-w-[125px] max-w-[90px] mx-auto" alt />
+                     <img src="assets/img/svg/process/brush.svg" class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] md:w-[60px] h-[45px] md:h-[60px] mx-auto" alt />
+                     </span>
+                     <span class="relative hidden dark:block">
+                     <img src="assets/img/brushes/process/dark/2.png" class="md:max-w-[125px] max-w-[90px] mx-auto" alt />
+                     <img src="assets/img/svg/process/brush-2.svg" class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] md:w-[60px] h-[45px] md:h-[60px] mx-auto" alt />
+                     </span>
+                  </div>
+                  <div class="mt-[30px]">
+                     <h3 class="text-2xl">High Quality</h3>
+                     <p class="mx-auto text-muted dark:text-darkmuted mt-5 leading-[30px]">Delivering high-quality web solutions with meticulous attention to detail, ensuring exceptional performance, seamless user experiences, and visually stunning designs.</p>
+                  </div>
+               </div>
+               <div class="text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                  <div>
+                     <span class="relative inline-block dark:hidden">
+                     <img src="assets/img/brushes/process/3.png" class="md:max-w-[125px] max-w-[90px] mx-auto" alt />
+                     <img src="assets/img/svg/process/energy.svg" class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] md:w-[60px] h-[45px] md:h-[60px] mx-auto" alt />
+                     </span>
+                     <span class="relative hidden dark:block">
+                     <img src="assets/img/brushes/process/dark/3.png" class="md:max-w-[125px] max-w-[90px] mx-auto" alt />
+                     <img src="assets/img/svg/process/energy-2.svg" class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] md:w-[60px] h-[45px] md:h-[60px] mx-auto" alt />
+                     </span>
+                  </div>
+                  <div class="mt-[30px]">
+                     <h3 class="text-2xl">Awesome Idea</h3>
+                     <p class="mx-auto text-muted dark:text-darkmuted mt-5 leading-[30px]">Bringing awesome ideas to life with dynamic animations, creating visually captivating and interactive experiences that engage and inspire users.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="md:pt-[112px] p-[70px] pt-16 relative">
+         <div class="container">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-[90px] items-center">
+               <div class="relative space-y-4 md:space-y-0">
+                  <div>
+                     <img src="assets/img/about/1.jpg" class="mx-auto dark:hidden" alt />
+                     <img src="assets/img/about/2.jpg" class="mx-auto hidden dark:block" alt />
+                  </div>
+                  <div class="top-[120px] -left-20 md:absolute">
+                     <div class="flex gap-[17px] items-center pt-[25px] pr-[30px] pb-[21px] pl-[26px] bg-white dark:bg-semilight shadow-[25px_0px_65px_rgba(54,32,152,0.11)] rounded-lg">
+                        <h3 class="text-[50px] text-[#1cbe59]"><span class="my-port_counter stop" data-from="0" data-to="18" data-speed="2000">4</span></h3>
+                        <span class="name text-lg font-secondary leading-[1.3] font-medium">
+                        Years of<br/>
+                        Success
+                        </span>
+                     </div>
+                  </div>
+                  <div class="bottom-[70px] -right-[30px] md:absolute">
+                     <div class="flex gap-[17px] items-center pt-[25px] pr-[30px] pb-[21px] pl-[26px] bg-white dark:bg-semilight shadow-[25px_0px_65px_rgba(54,32,152,0.11)] rounded-lg">
+                        <h3 class="text-[50px] text-[#6e50f0] dark:text-[#f0c45c]"><span class="my-port_counter stop" data-from="0" data-to="9" data-speed="2000">1</span>K</h3>
+                        <span class="name text-lg font-secondary leading-[1.3] font-medium">
+                        Total<br/>
+                        Projects
+                        </span>
+                     </div>
+                  </div>
+               </div>
+               <div class="text-center md:text-left">
+                  <div class="mb-[25px] lg:max-w-[480px]">
+                     <p class="text-custom text-xl md:text-2xl font-medium font-secondary wow fadeInUp" data-wow-duration="1s">I'm a UI Developer</p>
+                     <h3 class="md:text-[48px] text-[35px] leading-[1.25] mt-1.5 wow fadeInUp" data-wow-duration="1s">I create anything you want with pixel-perfect web solutions.</h3>
+                  </div>
+                  <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px] mb-[47px] wow fadeInUp" data-wow-duration="1s">
+                     Hello there! I'm a web designer, passionate and dedicated to my work. With 4 years of experience as a professional UI developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion to collaboration.
+                  </p>
+                  <div class="wow fadeInUp" data-wow-duration="1s">
+                     <a href="#contact" class="btn-custom">Hire Me</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="left-10 top-5 absolute hidden lg:block wow fadeInLeft" data-wow-duration="1s"><img src="assets/img/brushes/about/1.png" alt /></div>
+         <div class="-bottom-[50px] -z-[1] right-0 absolute hidden lg:block wow fadeInRight" data-wow-duration="1s"><img src="assets/img/brushes/about/2.png" alt /></div>
+      </section>
+      <section class="section-achievement md:pt-[112px] p-[70px]" id="bixexperience">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="bix-banner aos-init aos-animate mb-[47px] text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                     <h3 class="md:text-[48px] text-[35px] leading-[1.25] mb-[23px] mt-1.5">What I <span>Achieve</span></h3>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="bix-activity-tabs">
+                     <ul class="nav nav-tabs aos-init aos-animate" role="tablist" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                        <li class="nav-item" role="presentation">
+                           <button type="button" class="nav-link active" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" role="tab" aria-controls="education" aria-selected="true">Education</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                           <button type="button" class="nav-link" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience" role="tab" aria-controls="experience" aria-selected="false" tabindex="-1">Experience</button>
+                        </li>
+                     </ul>
+                     <div class="tab-content">
+                        <div class="tab-pane fade show active" id="education" role="tabpanel" aria-labelledby="education-tab">
+                           <div class="row">
+                              <div class="col-12">
+                                 <div class="bix-achievement">
+                                    <div class="bix-achievement-inner border-r">
+                                       <div class="bix-achievement-box left aos-init wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2022-24</span>
+                                          </div>
+                                          <h4>'O' Level (IT) <span>- First Class</span></h4>
+                                          <p>Completed the 'O' Level (IT) from NIELIT, part of the DOEACC program. This certification provided a strong foundation in information technology, covering essential skills and knowledge necessary for IT proficiency and supporting my growth in the field of web development and design.
+                                          </p>
+                                       </div>
+                                       <div class="bix-achievement-box left mt-150 wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2015-2017</span>
+                                          </div>
+                                          <h4>Higher Secondary <span>- 78.54%</span></h4>
+                                          <p>Higher Secondary with 78.54% from RS Inter College, specializing in Math, Physics, and Chemistry, showcasing strong analytical and problem-solving skills.</p>
+                                       </div>
+                                    </div>
+                                    <div class="bix-achievement-inner border-l">
+                                       <div class="bix-achievement-box right mt-150 wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2018-21</span>
+                                          </div>
+                                          <h4>Bachelor of Arts <span>- Second Class</span>
+                                          </h4>
+                                          <p>Bachelor of Arts from MJPRU, providing a broad educational background and a strong foundation for professional and creative pursuits.
+                                          </p>
+                                       </div>
+                                       <div class="bix-achievement-box right mt-150 wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2013-15</span>
+                                          </div>
+                                          <h4>Primary School <span>- A+ Grade</span></h4>
+                                          <p>I completed my schooling at my village school, excelling in math and reasoning with a strong foundation. Achieved A+ in Higher Secondary, demonstrating dedication and a solid academic performance.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                           <div class="row">
+                              <div class="col-12">
+                                 <div class="bix-achievement">
+                                    <div class="bix-achievement-inner border-r">
+                                       <div class="bix-achievement-box left mt-150 wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2023-24</span>
+                                          </div>
+                                          <h4>Brandconn Digital Pvt Ltd <span>- HTML Developer</span></h4>
+                                          <p>
+                                          <ul>
+                                             <li>Developed responsive and user-friendly interfaces using HTML, CSS, JavaScript, and frameworks like
+                                                Bootstrap and Tailwind CSS.
+                                             </li>
+                                             <li>
+                                                Translated UI/UX design wireframes into code, ensuring high performance and cross-browser
+                                                compatibility.
+                                             </li>
+                                          </ul>
+                                          </p>
+                                       </div>
+                                    </div>
+                                    <div class="bix-achievement-inner border-l">
+                                       <div class="bix-achievement-box right  wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2020-23</span>
+                                          </div>
+                                          <h4>Strawberri World Solutions Private Limited <span>- UI Developer</span></h4>
+                                          <ul>
+                                             <li>Created and maintained web applications using modern front-end technologies, including React.js.</li>
+                                             <li>Enhanced website performance and user experience through optimized code and responsive design.</li>
+                                             <li>Participated in code reviews and team meetings to ensure project alignment and knowledge sharing.</li>
+                                          </ul>
+                                       </div>
+                                       <div class="bix-achievement-box right mt-150 wow fadeInUp" data-wow-duration="1s">
+                                          <div class="achievement-year">
+                                             <span>2020-22</span>
+                                          </div>
+                                          <h4>Dice Academy <span>- Front-end Developer</span>
+                                          </h4>
+                                          <ul>
+                                             <li>Assisted in the development of interactive and responsive websites.</li>
+                                             <li>Gained hands-on experience with HTML, CSS, JavaScript, and various front-end frameworks.</li>
+                                             <li>Collaborated with senior developers to improve code quality and adhere to best practices.</li>
+                                             <li>Contributed to the design and development of educational web</li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="pt-[113px] md:pt-[185px] pb-[88px] md:pb-[165px] relative" id="portfolio">
+         <div class="container relative z-10">
+            <div class="grid grid-cols-1">
+               <div class="text-center max-w-[680px] mx-auto">
+                  <p class="text-custom text-[20px] md:text-2xl font-medium font-secondary">Skills</p>
+                  <h3 class="md:text-[48px] text-[35px] leading-[1.25] mb-[23px] mt-1.5">Expert in this technical web softwars</h3>
+                  <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">Proficient in technical web software and tools, as outlined in my skills section. Most common methods for designing websites that work well on desktop is responsive and adaptive design</p>
+               </div>
+            </div>
+            <div class="grid lg:grid-cols-6 md:grid-cols-4 gap-3 mt-20 relative z-10">
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="100ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/html.png" alt="html"></div>
+                  <div class="skills-name">
+                     <p>html</p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/css.png" alt="css"></div>
+                  <div class="skills-name">
+                     <p>CSS</p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="500ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/javascript.png" alt="JAVASCRIPT"></div>
+                  <div class="skills-name">
+                     <p>JAVASCRIPT</p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="700ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/bootstrap.png" alt="BOOTSTRAP"></div>
+                  <div class="skills-name">
+                     <p>BOOTSTRAP</p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="900ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/jquery.png" alt="JQUERY"></div>
+                  <div class="skills-name">
+                     <p>JQUERY</p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1000ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/sass.png" alt="SASS"></div>
+                  <div class="skills-name">
+                     <p>SASS</p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1200ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/wordpress.png" alt="WORDPRESS"></div>
+                  <div class="skills-name">
+                     <p>WORDPRESS </p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1400ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/react.png" alt="REACT"></div>
+                  <div class="skills-name">
+                     <p>REACT </p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1600ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/github.png" alt="GITHUB"></div>
+                  <div class="skills-name">
+                     <p>GITHUB </p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="1800ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/vscode.png" alt="VSCODE"></div>
+                  <div class="skills-name">
+                     <p>VSCODE </p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="2000ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/photoshop.png" alt="PHOTOSHOP"></div>
+                  <div class="skills-name">
+                     <p>PHOTOSHOP </p>
+                  </div>
+               </div>
+               <div class="skills-card wow fadeInUp" data-wow-duration="1s" data-wow-delay="2200ms">
+                  <div class="skills-img"><img src="./assets/img/svg/skills/figma.svg" alt="figma"></div>
+                  <div class="skills-name">
+                     <p>Figma </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+         <div class="left-[50px] top-[150px] absolute hidden lg:block wow zoomIn" data-wow-duration="1s"><img src="assets/img/brushes/portfolio/1.png" alt /></div>
+         <div class="right-[10px] bottom-[51px] absolute hidden lg:block wow fadeInRight" data-wow-duration="1s"><img src="assets/img/brushes/portfolio/2.png" alt /></div>
+      </section>
+      <section>
+         <div class="container relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-[200px] items-center">
+               <div>
+                  <div class="mb-[23px] wow fadeInUp" data-wow-duration="1s">
+                     <p class="text-custom text-[20px] md:text-2xl font-medium font-secondary">Design is Life</p>
+                     <h3 class="md:text-[48px] text-[35px] leading-[1.25] mt-1.5">I Develop Skills Regularly to Keep Me Update</h3>
+                  </div>
+                  <p class="text-muted dark:text-darkmuted lg:max-w-[485px] leading-[30px] wow fadeInUp" data-wow-duration="1s">The most common methods for designing websites that work well on desktop include responsive and adaptive design.</p>
+                  <div class="pt-[30px] space-y-[22px] wow fadeInUp" data-wow-duration="1s">
+                     <div class="w-full mb-[22px] relative" data-value="85" data-color="#f75023">
+                        <div class="mb-[9px] block"><span class="text-lg font-medium font-secondary inline-block">HTML</span><span class="absolute right-[15%] text-custom">95%</span></div>
+                        <div class="w-full bg-[#e7e5f1] rounded-full h-2">
+                           <div class="bg-custom h-2 rounded-full" style="width: 85%;"></div>
+                        </div>
+                     </div>
+                     <div class="w-full mb-[22px] relative" data-value="95" data-color="#f75023">
+                        <div class="mb-[9px] block"><span class="text-lg font-medium font-secondary inline-block">React Js</span><span class="absolute right-[20%] text-custom">80%</span></div>
+                        <div class="w-full bg-[#e7e5f1] rounded-full h-2">
+                           <div class="bg-[#1cbe59] h-2 rounded-full" style="width: 80%;"></div>
+                        </div>
+                     </div>
+                     <div class="w-full mb-[22px] relative" data-value="75" data-color="#f75023">
+                        <div class="mb-[9px] block"><span class="text-lg font-medium font-secondary inline-block">JavaScript</span><span class="absolute right-[25%] text-custom">75%</span></div>
+                        <div class="w-full bg-[#e7e5f1] rounded-full h-2">
+                           <div class="bg-[#8067f0] h-2 rounded-full" style="width: 75%;"></div>
+                        </div>
+                     </div>
+                     <div class="w-full mb-[22px] relative" data-value="75" data-color="#f75023">
+                        <div class="mb-[9px] block"><span class="text-lg font-medium font-secondary inline-block">CSS</span><span class="absolute right-[5%] text-custom">95%</span></div>
+                        <div class="w-full bg-[#e7e5f1] rounded-full h-2">
+                           <div class="bg-[#0277bd] h-2 rounded-full" style="width: 95%;"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="relative">
+                  <div>
+                     <img src="assets/img/skills/1.jpg" class="max-h-[800px] mx-auto dark:hidden" alt />
+                     <img src="assets/img/skills/2.jpg" class="max-h-[800px] mx-auto hidden dark:block" alt />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="relative">
+         <div class="-top-[170px] left-0 absolute hidden lg:block" data-wow-duration="1s"><img src="assets/img/brushes/partners/1.png" alt=""></div>
+         <div class="top-0 right-0 absolute hidden lg:block wow zoomIn" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: zoomIn;"><img src="assets/img/brushes/news/2.png" alt=""></div>
+      </section>
+
+      <section class="md:pt-[178px] pt-[120px] pb-[98px] md:pb-[160px] relative" id="service">
+         <div class="container relative z-10">
+            <div class="grid grid-cols-1">
+               <div class="text-center max-w-[680px] mx-auto">
+                  <p class="text-custom text-[20px] md:text-2xl font-medium font-secondary">Services</p>
+                  <h3 class="md:text-[48px] text-[35px] leading-[1.25] mb-[23px] mt-1.5">My Services for Clients</h3>
+                  <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">Explore my tailored web and design services, including UI/UX design, graphic-to-HTML conversion, and creative design solutions.</p>
+               </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 pt-[86px] gap-[25px] services">
+               <div class="cursor-pointer wow fadeInLeft" data-wow-duration="1s">
+                  <div onclick="toggleModal('modal-id')" class="shadow-[18px_0px_87px_rgba(10,15,17,0.07)] bg-white dark:bg-semilight p-8 lg:p-[65px] rounded-xl space-y-6 lg:space-y-0 lg:flex items-start gap-12 tilt-effect">
+                     <div class="shrink-0 relative inline-block">
+                        <img class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] h-[45px] mx-auto" src="assets/img/svg/service/anchor.svg" alt />
+                        <img src="assets/img/brushes/service/1.png" class="dark:hidden" alt />
+                        <img src="assets/img/brushes/service/dark/1.png" class="dark:block hidden" alt />
+                     </div>
+                     <div>
+                        <h3 class="text-[30px] mb-4">Creative Design</h3>
+                        <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">
+                           Delivering innovative and imaginative design solutions that bring your vision to life, from concept to execution, ensuring unique, engaging, and visually captivating results for all your creative needs.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="cursor-pointer wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div onclick="toggleModaltwo('modal-id-two')" class="shadow-[18px_0px_87px_rgba(10,15,17,0.07)] bg-white dark:bg-semilight p-8 lg:p-[65px] rounded-xl space-y-6 lg:space-y-0 lg:flex items-start gap-12 tilt-effect">
+                     <div class="shrink-0 relative inline-block">
+                        <img class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] h-[45px] mx-auto" src="assets/img/svg/service/physics.svg" alt />
+                        <img src="assets/img/brushes/service/2.png" class="dark:hidden" alt />
+                        <img src="assets/img/brushes/service/dark/2.png" class="dark:block hidden" alt />
+                     </div>
+                     <div>
+                        <h3 class="text-[30px] mb-4">Design to HTML</h3>
+                        <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">
+                           Transforming graphic designs into fully functional HTML code, ensuring pixel-perfect accuracy and seamless integration for visually appealing and responsive web solutions.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="cursor-pointer wow fadeInLeft" data-wow-duration="1s">
+                  <div onclick="toggleModalthree('modal-id-three')" class="shadow-[18px_0px_87px_rgba(10,15,17,0.07)] bg-white dark:bg-semilight p-8 lg:p-[65px] rounded-xl space-y-6 lg:space-y-0 lg:flex items-start gap-12 tilt-effect">
+                     <div class="shrink-0 relative inline-block">
+                        <img class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] h-[45px] mx-auto" src="assets/img/svg/service/contact.svg" alt />
+                        <img src="assets/img/brushes/service/3.png" class="dark:hidden" alt />
+                        <img src="assets/img/brushes/service/dark/3.png" class="dark:block hidden" alt />
+                     </div>
+                     <div>
+                        <h3 class="text-[30px] mb-4">UI/UX Design</h3>
+                        <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">
+                           Expert UI/UX design services focused on creating intuitive, engaging user interfaces and experiences. Transforming concepts into visually appealing and functional designs tailored to meet your project's goals.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="cursor-pointer wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div onclick="toggleModalfour('modal-id-four')" class="shadow-[18px_0px_87px_rgba(10,15,17,0.07)] bg-white dark:bg-semilight p-8 lg:p-[65px] rounded-xl space-y-6 lg:space-y-0 lg:flex items-start gap-12 tilt-effect">
+                     <div class="shrink-0 relative inline-block">
+                        <img class="top-1/2 -translate-y-1/2 absolute inset-x-0 w-[45px] h-[45px] mx-auto" src="assets/img/svg/service/web.svg" alt />
+                        <img src="assets/img/brushes/service/4.png" class="dark:hidden" alt />
+                        <img src="assets/img/brushes/service/dark/4.png" class="dark:block hidden" alt />
+                     </div>
+                     <div>
+                        <h3 class="text-[30px] mb-4">Web Design</h3>
+                        <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">
+                           Offering comprehensive web design services, including responsive and adaptive design, UI/UX development, and custom solutions to enhance user experiences and create visually stunning, high-performance websites.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="top-[300px] left-0 absolute hidden lg:block wow fadeInLeft" data-wow-duration="1s"><img src="assets/img/brushes/service/5.png" alt /></div>
+         <div class="top-0 right-0 absolute hidden lg:block wow zoomIn" data-wow-duration="1s"><img src="assets/img/brushes/service/6.png" alt /></div>
+      </section>
+
+      <section>
+         <div>
+            <div class="hidden overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id">
+               <div class="relative w-full my-10 mx-auto max-w-[968px] h-[calc(100vh-80px)] py-20">
+                  <div class="rounded relative flex flex-col w-full pt-5 overflow-y-auto p-[50px] bg-white dark:bg-[#34353a] outline-none focus:outline-none h-full scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+                     <div class="flex items-center justify-between pb-5">
+                        <h3 class="text-2xl font-semibold">
+                           Services Details
+                        </h3>
+                        <button class="ml-auto bg-transparent border-0 dark:text-white text-dark" onclick="toggleModal('modal-id')">
+                           <span class="bg-transparent stroke-dark block">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 dark:stroke-white stroke-dark">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                     <div>
+                        <img src="assets/img/service/1.jpg" class="h-[350px] object-cover w-full rounded-xl" alt>
+                        <h3 class="mt-[37px] text-[30px] font-medium ">Creative Design</h3>
+                        <div class="mt-[23px] space-y-5">
+                           <p>I offer a comprehensive suite of web and design services tailored to your needs. My expertise in UI/UX Design ensures that I craft intuitive and engaging user interfaces that enhance overall user experiences. I focus on creating designs that are not only visually appealing but also highly functional, providing seamless interaction for your audience. In addition, my Graphic Design to HTML service transforms your high-quality graphics into responsive and accurate HTML code, ensuring that every design detail is preserved and that your website performs flawlessly across different devices.</p>
+                           <p>My <strong>Creative Design</strong> services encompass a broad range of innovative solutions, from conceptualization to final execution. I bring your ideas to life with unique and captivating designs that make a strong visual impact. Whether it's developing a new web layout, creating custom graphics, or refining your existing designs, I am dedicated to delivering high-performance results that align with your project's goals and vision.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="hidden fixed inset-0 z-40 bg-dark/90" id="modal-id-backdrop"></div>
+         </div>
+         <div>
+            <div class="hidden overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id-two">
+               <div class="relative w-full my-10 mx-auto max-w-[968px] h-[calc(100vh-80px)] py-20">
+                  <div class="rounded relative flex flex-col w-full pt-5 overflow-y-auto p-[50px] bg-white dark:bg-[#34353a] outline-none focus:outline-none h-full scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+                     <div class="flex items-center justify-between pb-5">
+                        <h3 class="text-2xl font-semibold">
+                           Services Details
+                        </h3>
+                        <button class="ml-auto bg-transparent border-0 text-dark" onclick="toggleModal('modal-id-two')">
+                           <span class="bg-transparent stroke-dark block">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 dark:stroke-white stroke-dark">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                     <div>
+                        <img src="assets/img/service/2.jpg" class="h-[350px] object-cover w-full rounded-xl" alt>
+                        <h3 class="mt-[37px] text-[30px] font-medium ">Design to HTML</h3>
+                        <div class="mt-[23px] space-y-5">
+                           <p class="text-muted dark:text-darkmuted">I specialize in converting your design concepts into clean, responsive HTML code. This process ensures that your visual designs are accurately translated into fully functional web pages, maintaining pixel-perfect precision across different devices and screen sizes. From detailed graphics to intricate layouts, I handle every aspect of the conversion with attention to detail and a focus on optimal performance and compatibility. Whether it's a static design or a complex interactive interface, my goal is to deliver a seamless transition from design to a high-quality, user-friendly HTML implementation.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="hidden fixed inset-0 z-40 bg-dark/90" id="modal-id-two-backdrop"></div>
+         </div>
+         <div>
+            <div class="hidden overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id-three">
+               <div class="relative w-full my-10 mx-auto max-w-[968px] h-[calc(100vh-80px)] py-20">
+                  <div class="rounded relative flex flex-col w-full pt-5 overflow-y-auto p-[50px] bg-white dark:bg-[#34353a] outline-none focus:outline-none h-full scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+                     <div class="flex items-center justify-between pb-5">
+                        <h3 class="text-2xl font-semibold">
+                           Services Details
+                        </h3>
+                        <button class="ml-auto bg-transparent border-0 text-dark" onclick="toggleModal('modal-id-three')">
+                           <span class="bg-transparent stroke-dark block">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 dark:stroke-white stroke-dark">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                     <div>
+                        <img src="assets/img/service/3.jpg" class="h-[350px] object-cover w-full rounded-xl" alt>
+                        <h3 class="mt-[37px] text-[30px] font-medium ">UI/UX Design</h3>
+                        <div class="mt-[23px] space-y-5">
+                           <p class="text-muted dark:text-darkmuted">I provide comprehensive UI/UX design services that focus on creating intuitive and visually engaging user interfaces. My approach involves understanding your users' needs and behaviors to design seamless interactions and enhance overall user satisfaction. From wireframes and prototypes to final designs, I ensure that each element is crafted to offer an optimal and enjoyable user experience. My goal is to translate complex requirements into clean, functional designs that not only look great but also improve usability and accessibility across various devices and platforms.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="hidden fixed inset-0 z-40 bg-dark/90" id="modal-id-three-backdrop"></div>
+         </div>
+         <div>
+            <div class="hidden overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id-four">
+               <div class="relative w-full my-10 mx-auto max-w-[968px] h-[calc(100vh-80px)] py-20">
+                  <div class="rounded relative flex flex-col w-full pt-5 overflow-y-auto p-[50px] bg-white dark:bg-[#34353a] outline-none focus:outline-none h-full scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+                     <div class="flex items-center justify-between pb-5">
+                        <h3 class="text-2xl font-semibold">
+                           Services Details
+                        </h3>
+                        <button class="ml-auto bg-transparent border-0 text-dark" onclick="toggleModal('modal-id-four')">
+                           <span class="bg-transparent stroke-dark block">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 dark:stroke-white stroke-dark">
+                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                     <div>
+                        <img src="assets/img/service/4.jpg" class="h-[350px] object-cover w-full rounded-xl" alt>
+                        <h3 class="mt-[37px] text-[30px] font-medium ">Web Design</h3>
+                        <div class="mt-[23px] space-y-5">
+                           <p class="text-muted dark:text-darkmuted">I offer professional web design services that focus on creating aesthetically pleasing, responsive, and user-friendly websites. From initial concept to final implementation, I design with a keen eye for detail and a strong emphasis on functionality. My approach ensures that your website not only captures your brand’s essence but also delivers a seamless and engaging user experience across all devices. Whether you need a new website or a redesign, I provide tailored solutions that enhance visual appeal, optimize performance, and align with your business goals.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="hidden fixed inset-0 z-40 bg-dark/90" id="modal-id-four-backdrop"></div>
+         </div>
+      </section>
+      <section class="relative pb-[127px] md:pb-[187px]">
+         <div class="px-4 lg:px-0 relative z-10">
+            <div class="grid grid-cols-1">
+               <div class="text-center max-w-[680px] mx-auto">
+                  <p class="text-custom text-[20px] md:text-2xl font-medium font-secondary">Testimonials</p>
+                  <h3 class="md:text-[48px] text-[35px] leading-[1.25] mb-[23px] mt-1.5">What My Clients Say</h3>
+                  <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">Discover what clients value most about my work—exceptional design, professionalism, and results that exceed expectations.</p>
+               </div>
+            </div>
+            <div class="grid grid-cols-1 mt-20 relative bg-cover bg-top dark:bg-[url('../img/testimonials/bg-client-dark.html')] bg-[url('../img/testimonials/bg-client.html')]">
+               <div id="owl-demo" class="owl-carousel">
+                  <div class="text-center max-w-[900px] mx-auto">
+                     <div class="mb-[35px]">
+                        <img class="!w-[65px] mx-auto" src="assets/img/svg/testimonials/quote.svg" alt />
+                     </div>
+                     <div>
+                        <p class="md:text-[30px] text-xl text-muted dark:text-darkmuted italic leading-[1.6]">
+                           Mohd Rizwan's expertise in UI/UX design and web development is unparalleled. His ability to transform complex ideas into visually stunning and functional websites is truly impressive. His professionalism, attention to detail, and dedication to delivering high-quality results make him an invaluable asset. Highly recommended!"
+                        </p>
+                     </div>
+                     <div class="flex items-center gap-[25px] mt-[51px] justify-center">
+                        <!-- <img src="assets/img/testimonials/4.jpg" class="!w-[60px] rounded-full" alt /> -->
+                        <div class="text-start">
+                           <h5 class="font-secondary text-2xl font-medium">Waqas Ahmad</h5>
+                           <p class="text-muted dark:text-darkmuted text-base leading-7">Reddot Tech</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="text-center max-w-[900px] mx-auto">
+                     <div class="mb-[35px]">
+                        <img class="!w-[65px] mx-auto" src="assets/img/svg/testimonials/quote.svg" alt />
+                     </div>
+                     <div>
+                        <p class="md:text-[30px] text-xl text-muted dark:text-darkmuted italic leading-[1.6]">
+                           I had the pleasure of working with Mohd Rizwan on a recent project, and the results were outstanding. His creative approach to web design and seamless integration of graphic elements into HTML resulted in a site that perfectly captured our vision. His commitment to excellence and timely delivery were much appreciated.
+                        </p>
+                     </div>
+                     <div class="flex items-center gap-[25px] mt-[51px] justify-center">
+                        <!-- <img src="assets/img/testimonials/4.jpg" class="!w-[60px] rounded-full" alt /> -->
+                        <div class="text-start">
+                           <h5 class="font-secondary text-2xl font-medium">Suraj Ahmad</h5>
+                           <p class="text-muted dark:text-darkmuted text-base leading-7">Strawberri World Solutions</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="text-center max-w-[900px] mx-auto">
+                     <div class="mb-[35px]">
+                        <img class="!w-[65px] mx-auto" src="assets/img/svg/testimonials/quote.svg" alt />
+                     </div>
+                     <div>
+                        <p class="md:text-[30px] text-xl text-muted dark:text-darkmuted italic leading-[1.6]">
+                           Thank you, Mohd Rizwan Ahmad, for helping us with this project. Without a doubt, he not only understood the assignment very well but was very cooperative. He is always available and clears all doubts very patiently and also he has strong knowledge of his skill set. It was a great experience to work with him. Looking forward to working with him again. Highly Recommended!
+                        </p>
+                     </div>
+                     <div class="flex items-center gap-[25px] mt-[51px] justify-center">
+                        <!-- <img src="assets/img/testimonials/4.jpg" class="!w-[60px] rounded-full" alt /> -->
+                        <div class="text-start">
+                           <h5 class="font-secondary text-2xl font-medium">Client's feedback</h5>
+                           <p class="text-muted dark:text-darkmuted text-base leading-7">Aspiring MInds</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="absolute right-5 -top-[120px] hidden lg:block wow fadeInRight" data-wow-duration="1s"><img src="assets/img/brushes/testimonials/1.png" alt /></div>
+      </section>
+
+      <section class="pb-[120px] md:pb-[200px] relative" id="contact">
+         <div class="container">
+           <div class="grid grid-cols-1">
+             <div class="text-center max-w-[680px] mx-auto">
+               <p class="text-custom text-[20px] md:text-2xl font-medium font-secondary">Contact Me</p>
+               <h3 class="md:text-[48px] text-[35px] leading-[1.25] mb-[23px] mt-1.5">I Want To Hear From You</h3>
+               <p class="text-muted dark:text-darkmuted text-lg leading-[30px]">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+             </div>
+           </div>
+           <div class="grid grid-cols-1 md:grid-cols-2 mt-20 gap-[25px]">
+             <div class="space-y-[15px] wow fadeInLeft" data-wow-duration="1s">
+               <div class="flex items-center gap-[25px]">
+                 <div class="shrink-0 h-[88px] w-[88px] leading-[88px] rounded-full bg-[#fedfd7] inline-block text-center text-2xl">
+                   <i class="icon-location text-custom"></i>
+                 </div>
+                 <div>
+                   <h5 class="md:text-[30px] text-[25px]">Address</h5>
+                   <p class="text-lg mt-1.5 text-muted dark:text-darkmuted leading-8">Challera Gali 2 Noida</p>
+                 </div>
+               </div>
+               <div class="flex items-center gap-[25px]">
+                 <div class="shrink-0 h-[88px] w-[88px] leading-[88px] rounded-full bg-[#ddf5e6] inline-block text-center text-2xl">
+                   <i class="icon-mail-1 text-[#1cbe59]"></i>
+                 </div>
+                 <div>
+                   <h5 class="md:text-[30px] text-[25px]">Email</h5>
+                   <p class="text-lg mt-1.5 text-muted dark:text-darkmuted leading-8"><a href="mailto:therizwwan027@gmail.com" class="__cf_email__" data-cfemail="9af2fff6f6f5dafef3e0f7ffb4f9f5f7">Therizwan027@gmail.com</a></p>
+                 </div>
+               </div>
+               <div class="flex items-center gap-[25px]">
+                 <div class="shrink-0 h-[88px] w-[88px] leading-[88px] rounded-full bg-[#ece8fd] inline-block text-center text-2xl">
+                   <i class="icon-phone text-[#8067f0]"></i>
+                 </div>
+                 <div>
+                   <h5 class="md:text-[30px] text-[25px]">Phone</h5>
+                   <p class="text-lg mt-1.5 text-muted dark:text-darkmuted leading-8"><a href="tel:+918057872774">+91 8057872774</a></p>
+                 </div>
+               </div>
+             </div>
+             <div class="right wow fadeInRight" data-wow-duration="1s">
+               <form id="contactForm">
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                   <div>
+                     <label class="block">
+                       <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required />
+                     </label>
+                   </div>
+                   <div>
+                     <label class="block">
+                       <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required />
+                     </label>
+                   </div>
+                   <div>
+                     <label class="block">
+                       <input type="text" id="phone" name="phone" class="form-input" placeholder="Your Phone" required />
+                       <div id="phoneError" class="text-red-500 text-sm"></div>
+                     </label>
+                   </div>
+                   <div>
+                     <label class="block">
+                       <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject" required />
+                     </label>
+                   </div>
+                   <div class="md:col-span-2">
+                     <label class="block">
+                       <textarea id="message" name="message" class="form-input h-auto" rows="7" placeholder="Write your message here" required></textarea>
+                     </label>
+                   </div>
+                   <div class="md:col-span-2">
+                     <label class="block">
+                       <button type="submit" class="btn-custom">Submit Now</button>
+                     </label>
+                   </div>
+                 </div>
+               </form>
+             </div>
+           </div>
+         </div>
+         <div class="top-[100px] absolute left-0 hidden lg:block wow fadeInLeft" data-wow-duration="1s"><img src="assets/img/brushes/contact/1.png" alt /></div>
+         <div class="absolute bottom-[100px] right-[150px] hidden lg:block wow fadeInRight" data-wow-duration="1s"><img src="assets/img/brushes/contact/2.png" alt /></div>
+       </section>
+     
+       <!-- Responds POPUP -->
+       <div>
+         <div class="overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex hidden" id="modal-id-success">
+           <div class="relative w-full my-10 mx-auto max-w-[968px] w-[calc(100%-40px)] py-20">
+             <div class="rounded relative flex flex-col w-full pt-5 overflow-y-auto p-[50px] bg-white dark:bg-[#34353a] outline-none focus:outline-none h-full scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+               <div class="flex items-center justify-end pb-5">
+                 <button class="ml-auto bg-transparent border-0 text-dark" onclick="toggleModal('modal-id-success')">
+                   <span class="bg-transparent stroke-dark block">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 dark:stroke-white stroke-dark">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                     </svg>
+                   </span>
+                 </button>
+               </div>
+               <div>
+                 <h3 class="text-2xl text-center text-[#1cbe59] md:text-[48px] font-semibold">
+                   Thank You for Reaching Out!
+                 </h3>
+                 <div class="mt-[23px] space-y-5">
+                   <p class="text-muted dark:text-darkmuted text-center">
+                     Thank you for contacting me! I appreciate your interest and will review your message shortly. I'll respond soon to discuss how we can collaborate. If you have any immediate questions, feel free to reach out directly. Looking forward to the opportunity to work together!
+                   </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="fixed inset-0 z-40 bg-dark/90 flex hidden" id="modal-id-success-backdrop"></div>
+       </div>
+
+       <div>
+         <div class="overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex hidden" id="modal-id-fail">
+           <div class="relative w-full my-10 mx-auto max-w-[968px] w-[calc(100%-40px)] py-20">
+             <div class="rounded relative flex flex-col w-full pt-5 overflow-y-auto p-[50px] bg-white dark:bg-[#34353a] outline-none focus:outline-none h-full scrollbar-thumb-dark/25 scrollbar-track-dark/10 scrollbar-thin">
+               <div class="flex items-center justify-end pb-5">
+                 <button class="ml-auto bg-transparent border-0 text-dark" onclick="toggleModal('modal-id-fail')">
+                   <span class="bg-transparent stroke-dark block">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 dark:stroke-white stroke-dark">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                     </svg>
+                   </span>
+                 </button>
+               </div>
+               <div>
+                 <h3 class="text-2xl text-center text-[#1cbe59] md:text-[48px] font-semibold">
+                  Form Submission Error
+                 </h3>
+                 <div class="mt-[23px] space-y-5">
+                   <p class="text-muted dark:text-darkmuted text-center">
+                     It looks like there was an issue with your form submission. Please ensure all fields are filled out correctly and try again. If you continue to experience problems, feel free to reach out to us directly for assistance. Thank you for your patience.
+                   </p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="fixed inset-0 z-40 bg-dark/90 flex hidden" id="modal-id-fail-backdrop"></div>
+       </div>
+       <!-- Responds POPUP -->
+
+
+
+      <section class="relative pb-[120px]">
+         <div class="container">
+            <div class="grid grid-cols-1">
+               <div>
+                  <div class="mapouter">
+                     <div class="gmap_canvas rounded-xl">
+                        <iframe width="100%" height="375" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112178.51076192853!2d77.31942449050676!3d28.52232777394981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1721326359278!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon"></a><br/>
+                        <style>
+                           .mapouter {
+                           position: relative;
+                           text-align: right;
+                           height: 375px;
+                           width: 100%;
+                           }
+                        </style>
+                        <a href="https://www.embedgooglemap.net/">how to add google map</a>
+                        <style>
+                           .gmap_canvas {
+                           overflow: hidden;
+                           background: none !important;
+                           height: 375px;
+                           width: 100%;
+                           }
+                        </style>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="py-[25px] relative bg-[#f2f5fb] dark:bg-[#3f4453]">
+         <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+               <div>
+                  <p class="text-muted dark:text-darkmuted text-base text-center md:text-left">Developed with Mohd Rizwan Ahmad © 2022</p>
+               </div>
+               <div>
+                  <ul class="flex items-center gap-10 justify-center md:justify-end text-base">
+                     <li>
+                        <a href="#" class="text-muted dark:text-darkmuted hover:text-custom duration-300">Terms & Condition </a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-muted dark:text-darkmuted hover:text-custom duration-300">Privacy Policy</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="mouse-cursor cursor-outer"></div>
+      <div class="mouse-cursor cursor-inner"></div>
+      <div class="fixed h-[100px] w-px bottom-[25px] -right-[25px] bg-dark/10 z-10 duration-300 progressbar">
+         <a href="#" class="no-underline text-dark"><span class="absolute bottom-[100px] left-0 text-[13px] text">To Top</span></a>
+         <span class="line"></span>
+      </div>
+     
+      <script src="assets/js/jquery-3.6.2.min.js"></script>
+      <script src="assets/js/isotope.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/tilt.jquery.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   </body>
+</html>
