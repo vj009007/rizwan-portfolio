@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 // Download PDF
 document.getElementById('downloadBtn').addEventListener('click', function () {
-  const pdfUrl = 'path/to/your/file.pdf';
+  const pdfUrl = '/assets/img/about/rizwan.pdf';
 
   const link = document.createElement('a');
   link.href = pdfUrl;
