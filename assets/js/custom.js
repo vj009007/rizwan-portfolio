@@ -239,7 +239,17 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
   link.click();
   document.body.removeChild(link);
 });
+document.getElementById('downloadBtn2').addEventListener('click', function () {
+   const pdfUrl = '/assets/img/about/rizwan.pdf';
 
+  const link = document.createElement('a');
+  link.href = pdfUrl;
+  link.download = 'rizwan.pdf';
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+ });
 //email
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {
