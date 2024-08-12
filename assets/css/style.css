@@ -1238,6 +1238,10 @@ h6 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 119 189 / var(--tw-bg-opacity));
 }
+.bg-\[\#dd0032\] {
+  --tw-bg-opacity: 1;
+  background-color: #dd0032;
+}
 .bg-custom {
   --tw-bg-opacity: 1;
   background-color: rgb(247 80 35 / var(--tw-bg-opacity));
