@@ -240,7 +240,7 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
   document.body.removeChild(link);
 });
 document.getElementById('downloadBtn2').addEventListener('click', function () {
-   const pdfUrl = '/assets/img/about/rizwan.pdf';
+   // const pdfUrl = '/assets/img/about/rizwan.pdf';
 
   const link = document.createElement('a');
   link.href = pdfUrl;
